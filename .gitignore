@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+.env
+.venv/
+venv/
+
+data_curation/raw_data_cleaning/*.xml
+data_curation/retreival_ready_data/generated_data/
+data_curation/retreival_ready_data/*.bak_*
+
+retrieval/data/*.json
+retrieval/embedding_generation/code/embedding_files/
+retrieval/embedding_generation/code/retrieval_runs/
+retrieval/embedding_generation/code/evaluation_of_retrieval_runs/
+retrieval/embedding_generation/retrieval_evaluation/eval_out/

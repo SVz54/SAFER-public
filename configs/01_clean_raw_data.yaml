@@ -1,0 +1,4 @@
+# Supply the original MITRE CWE XML here before running this stage.
+input_xml: data_curation/raw_data_cleaning/1435.xml
+output_xml: data_curation/raw_data_cleaning/cleaned_1435.xml
+

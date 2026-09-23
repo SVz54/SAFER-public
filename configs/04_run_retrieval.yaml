@@ -1,0 +1,11 @@
+index_dir: retrieval/embedding_generation/code/embedding_files
+prompt_file: retrieval/embedding_generation/retrieval_evaluation/retrieval_data/secure_code_benchmark_v2.csv
+output_jsonl: retrieval/embedding_generation/code/retrieval_runs/hybrid_v1.jsonl
+method: hybrid
+run_name: hybrid_v1
+top_k: 10
+vector_weight: 0.7
+bm25_weight: 0.3
+embedding_model: text-embedding-3-large
+embedding_dimensions:
+

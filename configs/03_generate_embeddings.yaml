@@ -1,0 +1,7 @@
+input_jsonl: data_curation/retreival_ready_data/generated_data/retrieval_ready_baseline.jsonl
+output_dir: retrieval/embedding_generation/code/embedding_files
+embedding_model: text-embedding-3-large
+embedding_dimensions:
+batch_size: 64
+sleep_seconds: 0.1
+

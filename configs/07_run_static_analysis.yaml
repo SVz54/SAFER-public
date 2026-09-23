@@ -1,0 +1,9 @@
+enabled: false
+
+# TODO: Wire this config once the repository has real static/security-analysis logic.
+# Possible future keys:
+# generated_outputs_jsonl: generation/generation_outputs.jsonl
+# artifacts_dir: generation/generated_artifacts
+# scanner: bandit
+# output_dir: static_analysis/results
+

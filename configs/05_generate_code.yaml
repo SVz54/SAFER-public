@@ -1,0 +1,29 @@
+retrieval_results_jsonl: retrieval/embedding_generation/code/retrieval_runs/hybrid_v1.jsonl
+metadata_jsonl: retrieval/embedding_generation/code/embedding_files/metadata.jsonl
+generation_context_jsonl: generation/generation_context.jsonl
+generation_prompts_jsonl: generation/generation_prompts.jsonl
+generation_outputs_jsonl: generation/generation_outputs.jsonl
+
+context:
+  top_k: 5
+  max_guidance: 4
+  max_consequences: 8
+  max_examples: 4
+  include_task_tags: false
+
+prompt:
+  max_guidance: 3
+  max_consequences: 6
+  max_examples: 2
+  include_task_tags: false
+
+generation:
+  model: gpt-5.4-mini
+  temperature: 0.2
+  delay_seconds: 0.4
+  max_retries: 3
+  start_index: 1
+  max_records: 0
+  artifacts_dir: generation/generated_artifacts
+  code_extension: txt
+

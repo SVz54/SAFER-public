@@ -1,0 +1,8 @@
+benchmark_file: retrieval/embedding_generation/retrieval_evaluation/retrieval_data/secure_code_benchmark_v2.csv
+retrieval_results_jsonl: retrieval/embedding_generation/code/retrieval_runs/hybrid_v1.jsonl
+output_prefix: retrieval/embedding_generation/code/evaluation_of_retrieval_runs/hybrid_v1
+
+comparison:
+  summary_files: []
+  output_json:
+

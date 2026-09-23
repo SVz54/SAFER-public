@@ -1,0 +1,23 @@
+stages:
+  01_clean_raw_data:
+    enabled: false
+    config: configs/01_clean_raw_data.yaml
+  02_create_retrieval_ready_data:
+    enabled: true
+    config: configs/02_create_retrieval_ready_data.yaml
+  03_generate_embeddings:
+    enabled: true
+    config: configs/03_generate_embeddings.yaml
+  04_run_retrieval:
+    enabled: true
+    config: configs/04_run_retrieval.yaml
+  05_generate_code:
+    enabled: true
+    config: configs/05_generate_code.yaml
+  06_evaluate_outputs:
+    enabled: true
+    config: configs/06_evaluate_outputs.yaml
+  07_run_static_analysis:
+    enabled: false
+    config: configs/07_run_static_analysis.yaml
+

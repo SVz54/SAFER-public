@@ -1,0 +1,14 @@
+input_xml: data_curation/raw_data_cleaning/cleaned_1435.xml
+canonical_output: data_curation/retreival_ready_data/generated_data/cwe_1435_canonical.json
+canonical_jsonl: false
+retrieval_ready_output: data_curation/retreival_ready_data/generated_data/retrieval_ready_baseline.jsonl
+
+openai_enrichment:
+  enabled: false
+  output_file: data_curation/retreival_ready_data/generated_data/retrieval_ready_enriched.jsonl
+  model: gpt-4.1
+  delay_seconds: 0.25
+  max_retries: 3
+  start_index: 1
+  max_records: 0
+
